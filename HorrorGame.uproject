@@ -5,6 +5,13 @@
 	"Description": "",
 	"Plugins": [
 		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
 			"Name": "MotionTrajectory",
 			"Enabled": true
 		},
@@ -34,14 +41,6 @@
 		},
 		{
 			"Name": "FieldSystemPlugin",
-			"Enabled": true
-		},
-		{
-			"Name": "SkeletalMeshModelingTools",
-			"Enabled": false
-		},
-		{
-			"Name": "ModelingToolsEditorMode",
 			"Enabled": true
 		}
 	]
